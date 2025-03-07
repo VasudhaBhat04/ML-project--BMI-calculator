@@ -9,3 +9,4 @@ streamlit run app.py   //Run your python file
 
 Local URL:  http://localhost:8501
 Network URL: http://<your-ip>:8501
+And a streamlit page of BMI calculator
