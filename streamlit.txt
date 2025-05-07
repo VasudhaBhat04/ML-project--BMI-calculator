@@ -1,6 +1,5 @@
 //Run this in your terminal for Streamlit app
 
-cd path/to/streamlit_project      //Your path name to the python file
 
 streamlit run app.py   //Run your python file
 
@@ -10,3 +9,5 @@ streamlit run app.py   //Run your python file
 Local URL:  http://localhost:8501
 Network URL: http://<your-ip>:8501
 And a streamlit page of BMI calculator
+
+
