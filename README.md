@@ -1,17 +1,27 @@
-The .csv file contains dataset 
-Height_cm: Height of the individual in centimeters.
-Weight_kg: Weight of the individual in kilograms.
-Gender: Gender of the individual (Male/Female).
-Age: Age of the individual in year,from 18-100
-BMI: Body Mass Index, calculated as weight (kg) divided by the square of height (m²).
-BMI_Category: Categorization of BMI, typically underweight, normal weight, overweight, or obese.
-Weight_Change_Required_kg: The recommended weight change (in kg) to reach a healthy BMI.
+## BMI Calculator using Machine Learning (Random Forest)
+This project is a simple and interactive BMI Calculator powered by Machine Learning. It predicts a person's BMI Category (like Underweight, Normal, Overweight, or Obese) and also suggests the required weight change (in kg) to reach a healthy BMI.
 
-Algorithm used " Random Forest algorithm:"
+Built with a Random Forest algorithm and deployed using Streamlit, this tool provides an easy way to evaluate your BMI and understand your health status.
+ Dataset Details
+The dataset contains the following columns:
 
-run the app.py file in VS code make sure that dataset file is in the same folder
+Height_cm: Height of the individual (in centimeters)
 
-Now open your terminal run the streamlit.txt codes in it
+Weight_kg: Weight of the individual (in kilograms)
 
-You'll get a streamlit app page where user has to enter Height_cm,Weight_kg,Gender & Age.
-Output will be the BMI_category & required weight change in kg to reach a healthy BMI.
+Gender: Gender of the individual (Male/Female)
+
+Age: Age (18–100 years)
+
+BMI: Calculated as weight (kg) / height (m²)
+
+BMI_Category: Category label - Underweight, Normal, Overweight, or Obese
+
+Weight_Change_Required_kg: Suggested weight change (positive or negative) to achieve a healthy BMI
+
+Model Info
+Algorithm: Random Forest Classifier
+
+Task: Multi-class classification (BMI Category) and regression (Weight change)
+
+Trained on: Cleaned BMI dataset with labeled outputs
